@@ -1,0 +1,5 @@
+$('.modal-body').html("<%= j render 'form', task: @task %>"); //.modal is the css class. find the class and replace it with the ruby code. The j changes the html into a javascript
+$('.modal').modal(); //tells the modal class to become a modal dialog..modal() is a nbootstrao method.
+
+
+//ON THE EDIT BUTTON IN THE BACKGROUND --- the browser send a get request to edit task 2 and the reposne is javascript. replaceing the html with the modal form

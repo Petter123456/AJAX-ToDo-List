@@ -1,0 +1,32 @@
+notes from bryce session
+
+
+AJAX
+insted of only clicking links javascript triggers a certain request instead of sending request / response to server.
+
+
+Change so that we are on the same page when adding todo items.
+1. change _form to remote: true instead of local
+2. remove the re_direct method in the index action of the controller
+3. in the action create in the controller add   --->   format.html { redirect_to tasks_url } #could also be redirect_to action: :index
+
+
+Add jquery library to rails:
+
+1. add jquery to gemfile
+2. bundle install
+3. in application.js --> //= require jquery
+  3.1. in the console write "jQuery" to see if it worked. No errors means you got Jquery working.
+
+
+jquery
+1. Add bootstrap cdn + add the html you want in the index view.
+2. touch file edit.js in the same view folder.
+3. Go to tasks.js (see all that )
+  3.1. here add the jquery that you wnat to use on the html element
+
+
+
+
+new way checkin routes:
+  http://localhost:3000/rails/info/routes
